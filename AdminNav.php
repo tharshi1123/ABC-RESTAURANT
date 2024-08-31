@@ -23,13 +23,13 @@
             <div class="row">
                 <div class="col-12">
                     <nav class="main-nav">
-                        <!-- ***** Logo Start ***** -->
-                        <a href="Index.php" class="logo">Signature <em> Cuisine</em></a>
-                        <!-- ***** Menu Start ***** -->
+            
                         <ul class="nav">
                             <li><a href="index.php" class="active">Home</a></li>
                             <li><a href="OrderList.php" class="active">Orders</a></li>
                             <li><a href="Users.php" class="active">Customers</a></li>
+                            <li><a href="Adminuser_dashboard.php" class="active">Adminusers</a></li>
+
 
                             <li>
                             <form action="Createoffer.php" method="post">

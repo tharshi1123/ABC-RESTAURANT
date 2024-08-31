@@ -84,20 +84,6 @@ if (isset($_POST['login_user'])) {
   }
 }
   	
-// Check if the form was submitted
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-  $users = $conn->real_escape_string($_POST['users']);
-  $password = $conn->real_escape_string($_POST['password']);
 
-
-  // SQL query to insert promotion data into the database
-  $sql = "INSERT INTO adminusers (users, password) VALUES ('$users', '$password')";
-
-  if ($conn->query($sql) === TRUE) {
-      echo "New user added successfully!";
-  } else {
-      echo "Error: " . $sql . "<br>" . $conn->error;
-  }
-}
 
 ?>

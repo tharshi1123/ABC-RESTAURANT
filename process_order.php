@@ -27,8 +27,40 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo "Error: " . $sql . "<br>" . $conn->error;
     }
 
+
     $conn->close();
 } else {
     echo "Invalid request";
 }
 ?>
+
+<?php
+session_start();
+
+// Initialize the cart if it doesn't exist
+if (!isset($_SESSION['cart'])) {
+    $_SESSION['cart'] = [];
+}
+
+// Add the posted item to the cart
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    $item = $_POST['item'];
+    $quantity = $_POST['quantity'];
+    $name = $_POST['name'];
+    $address = $_POST['address'];
+    $email = $_POST['email'];
+
+    $newItem = [
+        'item' => $item,
+        'quantity' => $quantity,
+        'name' => $name,
+        'address' => $address,
+        'email' => $email,
+    ];
+
+    $_SESSION['cart'][] = $newItem;
+
+    // Redirect to the cart page
+    header('Location: cart.php');
+    exit();
+}

@@ -62,7 +62,7 @@
 
                             <p> Golden-fried mozzarella cheese sticks served with a zesty marinara dipping sauce. </p>
                             <ul class="social-icons">
-                                <li><a href="Order.php">+ Order</a></li>
+                                <li><a href="Order.php">+ Add to Cart</a></li>
                             </ul>
                         </div>
                     </div>
@@ -81,7 +81,7 @@
 
 <p> Creamy blend of spinach, artichokes, and melted cheese, served with warm tortilla chips.</p>
                             <ul class="social-icons">
-                                <li><a href="Order.php">+ Order</a></li>
+                                <li><a href="Order.php">+ Add to Cart</a></li>
                             </ul>
                         </div>
                     </div>
@@ -100,7 +100,7 @@
 
 <P>Fresh romaine lettuce, parmesan cheese, croutons, and our homemade Caesar dressing.</P>
                             <ul class="social-icons">
-                                <li><a href="Order.php">+ Order</a></li>
+                                <li><a href="Order.php">+ Add to Cart</a></li>
                             </ul>
                         </div>
                     </div>
@@ -120,7 +120,7 @@
 
 <P>Sliced tomatoes, fresh mozzarella, basil leaves, drizzled with balsamic glaze and olive oil.</P>
                             <ul class="social-icons">
-                                <li><a href="Order.php">+ Order</a></li>
+                                <li><a href="Order.php">+ Add to Cart</a></li>
                             </ul>
                         </div>
                     </div>
@@ -139,7 +139,7 @@
 
 <P> A juicy beef patty topped with cheddar cheese, lettuce, tomato, onion, and served with hand-cut fries.</P>
                             <ul class="social-icons">
-                                <li><a href="Order.php">+ Order</a></li>
+                                <li><a href="Order.php">+ Add to Cart</a></li>
                             </ul>
                         </div>
                     </div>
@@ -157,7 +157,7 @@
 
 <p>Fresh Atlantic salmon fillet seasoned and grilled to perfection, served with a lemon butter sauce and choice of two sides.</p>
                             <ul class="social-icons">
-                                <li><a href="Order.php">+ Order</a></li>
+                                <li><a href="Order.php">+ Add to Cart</a></li>
                             </ul>
                         </div>
                     </div>

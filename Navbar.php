@@ -52,7 +52,7 @@
         </div>
     </header>
      
-    <footer>
+    <!-- <footer>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -63,7 +63,7 @@
                 </div>
             </div>
         </div>
-    </footer>
+    </footer> -->
 
 
     <script src="assets/js/jquery-2.1.0.min.js"></script>

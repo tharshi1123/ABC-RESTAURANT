@@ -28,7 +28,7 @@
             <!-- Column 1: Heading -->
             <div class="col-lg-6">
                 <div class="cta-content">
-                    <h2 style="padding-top:120px;"><em>"Your Ultimate Dining Companion – Browse, Order, and Enjoy with Just a Few Clicks!"</em></h2>
+                    <h2 style="padding-top:120px;"><em>"Yours Ultimate Dining Companion – Browse, Order, and Enjoy with Just a Few Clicks!"</em></h2>
                 </div>
             </div>
 

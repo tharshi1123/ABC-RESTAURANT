@@ -89,6 +89,7 @@
                             . $row["username"] . "</td><td>"
                             . $row["email"] . "</td><td>"
                             . $row["password"] . "</td></td>"
+                            . $row["Action"] . "</td></td>"
                             . '<form method="post" action="Delete_user.php" style="display:inline;">'
                             . '<input type="hidden" name="user_id" value="' . $row["id"] . '">'
                             . '<button type="submit" name="delete" class="btn btn-danger">Delete</button>'
